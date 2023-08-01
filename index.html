@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate JSON</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generate JSON</h1>
+
+    <form id="myFormulary">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+
+        <label for="age">Age:</label>
+        <input type="text" name="age" id="age" placeholder="Age" required>
+
+        <button type="button" onClick="generateJSON()">Generate JSON</button>
+    </form>
+    <!-- Show the JSON -->
+    <pre id="generatedJSON"></pre>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
